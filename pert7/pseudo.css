@@ -1,0 +1,39 @@
+button{
+    background-color: crimson;
+    border: none;
+    border-radius: 20px;
+    height: 50x;
+    width: 100px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(10, 53, 10);
+
+}
+
+button:active{
+    cursor: pointer;
+    background-color: rgb(151, 252, 151);
+}
+
+a{
+    color: aquamarine;
+    text-decoration: none;
+}
+a:visited{
+    color: darkgreen(50, 88, 50) ;
+    font-style: italic;
+}
+a[target="_blank"]{
+    color: rgb(115, 29, 177);
+
+}
+a[href="stmikaputama.ac.id"]{
+    color: brown;
+}
+input[name="jurusan"]{
+    background-color: rgba(3, 3, 12, 0.778);
+    border: none;
+    padding: 10px;
+}
